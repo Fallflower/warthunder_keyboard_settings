@@ -10,6 +10,10 @@ controls{
       keyboardKey:i=58
     }
 
+    ID_ACTION_BAR_ITEM_6{
+      keyboardKey:i=33
+    }
+
     ID_ACTION_BAR_ITEM_9{
       keyboardKey:i=10
     }
@@ -59,9 +63,19 @@ controls{
       keyboardKey:i=183
     }
 
-    ID_SENSOR_TARGET_LOCK_TANK{
-      keyboardKey:i=56
-      keyboardKey:i=33
+    ID_SELECT_GM_GUN_MACHINEGUN{
+      keyboardKey:i=29
+      keyboardKey:i=4
+    }
+
+    ID_SELECT_GM_GUN_PRIMARY{
+      keyboardKey:i=29
+      keyboardKey:i=2
+    }
+
+    ID_SELECT_GM_GUN_SECONDARY{
+      keyboardKey:i=29
+      keyboardKey:i=3
     }
 
     ID_SENSOR_TARGET_LOCK_TANK{
@@ -131,7 +145,17 @@ controls{
     USEROPT_WHEEL_CONTROL_SHIP:b=no
   }
 
-  deviceMapping{}
+  deviceMapping{
+    joystick{
+      connected:b=yes
+      devId:t="x360"
+      axesOffset:i=0
+      name:t="Controller 1"
+      buttonsOffset:i=0
+      buttonsCount:i=28
+      axesCount:i=7
+    }
+  }
 }
 
 settings{
